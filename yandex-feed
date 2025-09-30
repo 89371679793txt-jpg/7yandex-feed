@@ -13,6 +13,14 @@
       <category id="1">Татуировки</category>
     </categories>
     
+    <!-- ДОБАВЛЯЕМ ОБЯЗАТЕЛЬНЫЙ БЛОК SETS -->
+    <sets>
+      <set id="tattoo-oktyabrsky">
+        <name>Татуировки в Октябрьском</name>
+        <url>https://golddragontattoo.ru</url>
+      </set>
+    </sets>
+    
     <offers>
       <offer id="1" available="true">
         <name>Gold Dragon - Татуировки в Октябрьском</name>
@@ -20,21 +28,25 @@
         <price>6000</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
+        
+        <!-- ДОБАВЛЯЕМ ОБЯЗАТЕЛЬНЫЙ SET-IDS -->
+        <set-ids>tattoo-oktyabrsky</set-ids>
+        
         <picture>https://static.tildacdn.com/stor3465-3066-4136-b831-373231376534/73704744.jpg</picture>
         <description>Профессиональные татуировки любой сложности от студии Gold Dragon</description>
         
-        <!-- ОБЯЗАТЕЛЬНЫЕ ПАРАМЕТРЫ -->
-        <param name="Рейтинг" unit="балл">5.0</param>
-        <param name="Число отзывов" unit="шт">52</param>
-        <param name="Годы опыта" unit="лет">10</param>
-        <param name="Регион">Октябрьский</param>
-        <param name="Конверсия" unit="%">2</param>
+        <!-- ИСПРАВЛЯЕМ ПАРАМЕТРЫ НА НИЖНИЙ РЕГИСТР -->
+        <param name="рейтинг">5.0</param>
+        <param name="число отзывов">52</param>
+        <param name="годы опыта">10</param>
+        <param name="регион">Октябрьский</param>
+        <param name="конверсия">2</param>
         
-        <!-- ДОПОЛНИТЕЛЬНЫЕ ПАРАМЕТРЫ -->
-        <param name="Исполнитель проверен">true</param>
-        <param name="Организация">true</param>
-        <param name="Выполняется по адресу исполнителя">true</param>
-        <param name="Об исполнителе">Профессиональная студия татуировки с 10-летним опытом работы</param>
+        <!-- ДОПОЛНИТЕЛЬНЫЕ ПАРАМЕТРЫ ТОЖЕ В НИЖНЕМ РЕГИСТРЕ -->
+        <param name="исполнитель проверен">true</param>
+        <param name="организация">true</param>
+        <param name="выполняется по адресу исполнителя">true</param>
+        <param name="об исполнителе">Профессиональная студия татуировки с 10-летним опытом работы</param>
       </offer>
     </offers>
   </shop>
